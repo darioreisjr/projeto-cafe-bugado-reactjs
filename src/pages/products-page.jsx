@@ -4,11 +4,11 @@ import cafeBugado from "../assets/cafebugado.png";
 import cappuccinoCommit from "../assets/cappuccinoCommit.png";
 import mochaPullRequest from "../assets/mochaPullRequest.png";
 import frappuccinoDebug from "../assets/frappuccinoDebug.png";
-import Tulipa from "../assets/tulipa.png";
-import Margarida from "../assets/margarida.png";
-import Violeta from "../assets/violeta.png";
-import Camelia from "../assets/camelia.png";
-import Cravo from "../assets/cravo.png";
+import ChaChaiIntegracao from "../assets/ChaChaiIntegracao.png";
+import MacchiatoRefatoracao from "../assets/MacchiatoRefatoracao.png";
+import TortaGitTart from "../assets/TortaGitTart.png";
+import BoloBugFix from "../assets/BoloBugFix.png";
+import MuffinHackathon from "../assets/MuffinHackathon.png";
 import CookieDeadlock from "../assets/CookieDeadlock.png";
 import SanduícheCodeSandwich from "../assets/SanduícheCodeSandwich.png";
 import SaladaStackOverflow from "../assets/SaladaStackOverflow.png";
@@ -55,7 +55,7 @@ const ProductsPage = () => {
       description:
         "Um chá chai aromático e relaxante, para ajudar a integrar diferentes partes do seu código.",
       price: "R$ 17,00",
-      imageSrc: Tulipa,
+      imageSrc: ChaChaiIntegracao,
     },
     {
       id: 6,
@@ -63,7 +63,7 @@ const ProductsPage = () => {
       description:
         " Um macchiato forte e intenso, para te ajudar a melhorar a qualidade do seu código.",
       price: "R$ 8,00",
-      imageSrc: Margarida,
+      imageSrc: MacchiatoRefatoracao,
     },
     {
       id: 7,
@@ -71,7 +71,7 @@ const ProductsPage = () => {
       description:
         "Uma torta deliciosa e reconfortante, com recheio de maçã e especiarias, para te dar energia para a próxima maratona de código.",
       price: "R$ 24,00",
-      imageSrc: Violeta,
+      imageSrc: TortaGitTart,
     },
     {
       id: 8,
@@ -79,7 +79,7 @@ const ProductsPage = () => {
       description:
         " Um bolo fofinho e saboroso, com cobertura de chocolate, para celebrar a correção de um bug difícil.",
       price: "R$ 19,00",
-      imageSrc: Camelia,
+      imageSrc: BoloBugFix,
     },
     {
       id: 9,
@@ -87,7 +87,7 @@ const ProductsPage = () => {
       description:
         "Um muffin nutritivo e prático, para te manter saciado durante um hackathon.",
       price: "R$ 9,00",
-      imageSrc: Cravo,
+      imageSrc: MuffinHackathon,
     },
     {
       id: 10,

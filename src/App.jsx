@@ -12,14 +12,15 @@ import cafeBugado from "./assets/cafebugado.png";
 import cappuccinoCommit from "./assets/cappuccinoCommit.png";
 import mochaPullRequest from "./assets/mochaPullRequest.png";
 import frappuccinoDebug from "./assets/frappuccinoDebug.png";
-import Tulipa from "./assets/tulipa.png";
-import Margarida from "./assets/margarida.png";
-import Violeta from "./assets/violeta.png";
-import Camelia from "./assets/camelia.png";
-import Cravo from "./assets/cravo.png";
-import Hortensia from "./assets/hortensia.png";
-import Dalia from "./assets/dalia.png";
-import Iris from "./assets/iris.jpg";
+import ChaChaiIntegracao from "./assets/ChaChaiIntegracao.png";
+import MacchiatoRefatoracao from "./assets/MacchiatoRefatoracao.png";
+import TortaGitTart from "./assets/TortaGitTart.png";
+import BoloBugFix from "./assets/BoloBugFix.png";
+import MuffinHackathon from "./assets/MuffinHackathon.png";
+import CookieDeadlock from "./assets/CookieDeadlock.png";
+import SanduícheCodeSandwich from "./assets/SanduícheCodeSandwich.png";
+import SaladaStackOverflow from "./assets/SaladaStackOverflow.png";
+
 import LoadingIndicator from "./components/loading-indicator";
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       id: 1,
       name: "Café Bugado",
       description:
-        "Um café espresso clássico, forte e encorpado, para dar energia aos programadores que precisam de um impulso extra.",
+        " Um café espresso clássico, forte e encorpado, para dar energia aos programadores que precisam de um impulso extra.",
       price: "R$ 23,00",
       imageSrc: cafeBugado,
     },
@@ -58,67 +59,67 @@ function App() {
     },
     {
       id: 5,
-      name: "Tulipa",
+      name: "Chá Chai Integração",
       description:
-        "Uma tulipa vermelha vibrante, que simboliza amor verdadeiro e paixão intensa.",
-      price: "R$ 12,00",
-      imageSrc: Tulipa,
+        "Um chá chai aromático e relaxante, para ajudar a integrar diferentes partes do seu código.",
+      price: "R$ 17,00",
+      imageSrc: ChaChaiIntegracao,
     },
     {
       id: 6,
-      name: "Margarida",
+      name: "Macchiato Refatoração",
       description:
-        "Uma margarida branca e amarela, que representa inocência e pureza, ideal para presentear entes queridos.",
+        " Um macchiato forte e intenso, para te ajudar a melhorar a qualidade do seu código.",
       price: "R$ 8,00",
-      imageSrc: Margarida,
+      imageSrc: MacchiatoRefatoracao,
     },
     {
       id: 7,
-      name: "Violeta",
+      name: "Torta Git Tart",
       description:
-        "Uma violeta roxa delicada, que transmite delicadeza e admiração, perfeita para expressar sentimentos sutis.",
-      price: "R$ 14,00",
-      imageSrc: Violeta,
+        "Uma torta deliciosa e reconfortante, com recheio de maçã e especiarias, para te dar energia para a próxima maratona de código.",
+      price: "R$ 24,00",
+      imageSrc: TortaGitTart,
     },
     {
       id: 8,
-      name: "Camélia",
+      name: "Bolo Bug Fix",
       description:
-        "Uma camélia rosa elegante, símbolo de reconhecimento e gratidão, ideal para presentear pessoas especiais.",
-      price: "R$ 16,00",
-      imageSrc: Camelia,
+        " Um bolo fofinho e saboroso, com cobertura de chocolate, para celebrar a correção de um bug difícil.",
+      price: "R$ 19,00",
+      imageSrc: BoloBugFix,
     },
     {
       id: 9,
-      name: "Cravo",
+      name: "Muffin Hackathon",
       description:
-        "Um cravo vermelho perfumado, que representa amor e admiração, perfeito para celebrar momentos felizes.",
+        "Um muffin nutritivo e prático, para te manter saciado durante um hackathon.",
       price: "R$ 9,00",
-      imageSrc: Cravo,
+      imageSrc: MuffinHackathon,
     },
     {
       id: 10,
-      name: "Hortênsia",
+      name: "Cookie Deadlock",
       description:
-        "Uma hortênsia azul encantadora, que simboliza gratidão e apreço, perfeita para presentear pessoas queridas.",
-      price: "R$ 22,00",
-      imageSrc: Hortensia,
+        "Um cookie crocante e irresistível, para te ajudar a lidar com deadlocks.",
+      price: "R$ 8,00",
+      imageSrc: CookieDeadlock,
     },
     {
       id: 11,
-      name: "Dália",
+      name: "Sanduíche Code Sandwich",
       description:
-        "Uma dália colorida e exuberante, que representa beleza e elegância, ideal para decoração em eventos especiais.",
+        "Um sanduíche nutritivo e saboroso, feito com pão integral, queijo, tomate e alface, para te manter focado durante o dia.",
       price: "R$ 25,00",
-      imageSrc: Dalia,
+      imageSrc: SanduícheCodeSandwich,
     },
     {
       id: 12,
-      name: "Íris",
+      name: "Salada Stack Overflow",
       description:
-        "Uma íris violeta magnífica, que simboliza fé, esperança e sabedoria, perfeita para presentear em momentos de reflexão.",
+        "Uma salada fresca e crocante, com alface, rúcula, tomate cereja, pepino e frango grelhado, para te ajudar a encontrar respostas para seus problemas de programação.",
       price: "R$ 21,00",
-      imageSrc: Iris,
+      imageSrc: SaladaStackOverflow,
     },
   ];
 
