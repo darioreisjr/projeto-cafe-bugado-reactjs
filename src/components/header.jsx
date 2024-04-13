@@ -58,19 +58,21 @@ export default function Header() {
           </Link>
 
           <div className="flex flex-row gap-5 justify-center items-center">
-            <a
-              href="#"
-              target="_blank"
-            >
+            <a href="https://www.instagram.com/darioreisjr/" target="_blank">
               <FaInstagram
                 className="text-amber-950 hover:text-amber-800 transition-all duration-200 cursor-pointer"
                 size={30}
               />
             </a>
-            <FaWhatsapp
-              className="text-amber-950 hover:text-amber-800 transition-all duration-200 cursor-pointer"
-              size={30}
-            />
+            <a
+              href="https://api.whatsapp.com/send?phone=5511954351239&text=Hi%20Dario,%20I%20saw%20your%20coffee%20buggy%20project%20and%20I%20really%20liked%20it,%20congratulations"
+              target="_blank"
+            >
+              <FaWhatsapp
+                className="text-amber-950 hover:text-amber-800 transition-all duration-200 cursor-pointer"
+                size={30}
+              />
+            </a>
           </div>
         </div>
       ) : (
@@ -109,10 +111,7 @@ export default function Header() {
           </Link>
 
           <div className="flex flex-row gap-5 justify-center items-center">
-            <a
-              href="#"
-              target="_blank"
-            >
+            <a href="#" target="_blank">
               <FaInstagram
                 className="text-amber-950 hover:text-amber-800 transition-all duration-200 cursor-pointer"
                 size={30}
